@@ -1,0 +1,10 @@
+A Joint Bidding and Operation Strategy for BatteryStorage in Multi-temporal Energy Markets
+H. Akhavan-Hejazi, B. Asghari and R. K. Sharma, "A joint bidding and operation strategy for battery storage in multi-temporal energy markets," 2015 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), 2015, pp. 1-5, doi: 10.1109/ISGT.2015.7131830.
+@INPROCEEDINGS{7131830,  author={Akhavan-Hejazi, Hossein and Asghari, Babak and Sharma, Ratnesh K.},  booktitle={2015 IEEE Power   Energy Society Innovative Smart Grid Technologies Conference (ISGT)},   title={A joint bidding and operation strategy for battery storage in multi-temporal energy markets},   year={2015},  volume={},  number={},  pages={1-5},  doi={10.1109/ISGT.2015.7131830}}
+
+Model uses real time market (RTM) and day ahead market (DAM)
+
+IEEE Transactions on Power Systems
+@ARTICLE{7064800,  author={Mohsenian-Rad, Hamed},  journal={IEEE Transactions on Power Systems},   title={Coordinated Price-Maker Operation of Large Energy Storage Units in Nodal Energy Markets},   year={2016},  volume={31},  number={1},  pages={786-797},  doi={10.1109/TPWRS.2015.2411556}}
+
+Informative 

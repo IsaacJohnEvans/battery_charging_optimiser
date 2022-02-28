@@ -1,0 +1,10 @@
+,Market 1 Price [£/MWh],Market 2 Price [£/MWh],Transmission System Electricity Demand [MW],Wind Generation [MW],Solar Generation [MW],Coal Generation [MW],Gas Generation [MW],Total Generation,Excess
+Market 1 Price [£/MWh],1.0,0.98,0.532,-0.241,-0.077,0.455,0.504,0.377,-0.363
+Market 2 Price [£/MWh],0.98,1.0,0.535,-0.229,-0.152,0.44,0.495,0.348,-0.419
+Transmission System Electricity Demand [MW],0.532,0.535,1.0,0.066,-0.038,0.63,0.745,0.858,-0.413
+Wind Generation [MW],-0.241,-0.229,0.066,1.0,-0.143,0.019,-0.504,0.198,0.224
+Solar Generation [MW],-0.077,-0.152,-0.038,-0.143,1.0,-0.084,0.107,0.311,0.625
+Coal Generation [MW],0.455,0.44,0.63,0.019,-0.084,1.0,0.394,0.607,-0.142
+Gas Generation [MW],0.504,0.495,0.745,-0.504,0.107,0.394,1.0,0.676,-0.243
+Total Generation,0.377,0.348,0.858,0.198,0.311,0.607,0.676,1.0,0.113
+Excess,-0.363,-0.419,-0.413,0.224,0.625,-0.142,-0.243,0.113,1.0

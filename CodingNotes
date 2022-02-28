@@ -1,0 +1,30 @@
+#Create a cell and charge it
+Cell = Battery()
+Cell.Charging(2)
+print(Cell.Charge)
+Cell.PrintAttributes()
+
+#Battery Attributes
+MaxChargingRate = 2
+MaxStorage = 4
+ChargingEfficiency = 0.95
+Lifetime = 10
+MaxCycles = 5000
+MaxStorageLoss = 0.00001
+Charge = 0
+
+#Plots price
+df.plot(x = 'Time', y = 'Market 1 Price [£/MWh]') 
+'''
+Baseline function 
+Buys electricity when it is cheaper than the mean cost
+Sells electricity when it is more expensive than the mean cost
+Range = (0, 10)
+MeanCost =  df['Market 1 Price [£/MWh]'].mean()
+BankTotal = BuySellNearMean(Range, MeanCost)
+print(BankTotal)
+'''
+
+#plt.figure('BankData')
+#plt.plot(Time, BankData, 'r')
+#plt.show()

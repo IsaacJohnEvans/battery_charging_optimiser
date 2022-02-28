@@ -1,0 +1,70 @@
+Models
+-----
+BuySell at a proportional rate until a maximum 
+    Simple price based strategy optimisation - 4D space
+    Gradient rate is good
+    MinSell - start selling 
+    MaxSell - sell at max
+    MinBuy - start buying
+    MaxBuy - buy at max
+    Arima extension - moving previous mean
+    
+
+Tasks
+-----
+Ryan - variable at each time step and then iterating - third party optimiser
+Elliot - Random buy sell hold
+Ben - implement third party optimiser
+Freddy - difference between 24 hour and half hour market variation and futures possibility of using it as a heuristic
+Isaac - linear variation of charging on BuySellNearMean, add battery cost per year and price per cycle/lifetime estimator 
+
+Ryan - Static problem - last few constraints and optimum 
+Elliot - Random graphs, and obtain standard deviation etc, write some stuff
+Ben - Improve daily method, write intro
+Freddy - Report on market 3, 
+Isaac - Search/ decision tree model
+
+Report 
+-----
+Describe the problem
+Describe global optimisation
+Static problem - the future is known
+Predictive power - unknown future
+Random and buysell linear - that don't need to see the future
+Decision tree ???
+Genetic algorithm ???
+Worst constraints 
+Conclusion -
+
+To do for future prediction rolling mean 
+-----
+Rolling buy sell mean and linear dependency ARIMA 
+Investigation of best combined market 
+
+TO DO
+-----
+Bare bones class vs plotable class
+Internal variable that stores the average price bought and average price sold for current electricity stored
+Calculating rate that we need to buy and sell at based on lifetime vs uptime
+Iterating over the dataset
+Decision tree at each time 
+Reinforcement learning
+Considering the optimal decision over the next few hours
+Stochastic optimisation methods - scipy and stuff 
+Simulated annealing
+Genetic or evolutionary algorithm 
+Variance of market 
+General trend of market 
+Looking at general trends - general derivatives
+Estimate constraints of linear programming problem
+Use conditional probability to elimate variables 
+Write some of the report
+
+Using moving window mean for buy/sell decision as well as creating optimal market from M1 and M2
+
+
+weight value:  8 
+distance from mean 0 
+ linear scale length 20 
+memory_for_mean 45 
+Total revenue:  377878
